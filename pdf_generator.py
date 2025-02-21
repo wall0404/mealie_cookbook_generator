@@ -268,7 +268,7 @@ def renderDedicationHTML(dedicationText):
     return sourceHtml
 
 def renderToCHTML():
-    sourceHtml = tocTemplate.render(title="Contents", categoryManifest=globalCategoryManifest,staticPageCatalog=globalStaticCatalog)
+    sourceHtml = tocTemplate.render(title="Inhalt", categoryManifest=globalCategoryManifest,staticPageCatalog=globalStaticCatalog)
     return sourceHtml
 
 def renderIndexHTML():
@@ -740,4 +740,6 @@ if __name__ == "__main__":
         generateIndexPDF()
         
         combinePDFs()
+
+        print("complete")
     

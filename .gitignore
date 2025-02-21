@@ -11,3 +11,6 @@ dedication.txt
 config.ini
 todo.md
 weasyprint.log
+/.venv
+*.tgz
+example_config.ini
